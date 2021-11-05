@@ -7,14 +7,16 @@ int main(){
 
     int a, i, size = 20;
 
-    for (i = 1; i < size; i++){
-        for (a = 1; a < size; a++){
+    for (i = 1; i <= size; i++){
+        for (a = 1; a <= size + size; a++){
             if (i == 1 || i == size)
                 cout << "8";
-            else if (a == 1 || a == size)
+            else if (a == 1 || a == size + size)
                 cout << "8";
-            else if (a > 1 && a < size)
+            else if (a > 1 && a < size + size)
                 cout << " ";
         }
+        cout << endl;
     }
+    cout << endl;
 }
