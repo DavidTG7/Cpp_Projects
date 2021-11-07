@@ -26,4 +26,19 @@ int main(){
         }
         cout << endl;
     }
+    for(a = 1; a <= size; a++){
+        for(b = 1; b <= size; b++){
+            if(b < a + 1)
+                cout << " ";
+            else
+                cout << "8";
+        }
+        for(b = 1; b <= size; b++){
+            if(b <= size  )
+                cout << "8";
+            else
+                cout << " ";
+        }
+        cout << endl;
+    }
 }
