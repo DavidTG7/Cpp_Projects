@@ -34,7 +34,7 @@ int main(){
                 cout << "8";
         }
         for(b = 1; b <= size; b++){
-            if(b >= size -a  )
+            if(b >= size - a)
                 cout << " ";
             else
                 cout << "8";
