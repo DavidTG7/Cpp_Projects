@@ -34,10 +34,10 @@ int main(){
                 cout << "8";
         }
         for(b = 1; b <= size; b++){
-            if(b <= size  )
-                cout << "8";
-            else
+            if(b >= size -a  )
                 cout << " ";
+            else
+                cout << "8";
         }
         cout << endl;
     }
