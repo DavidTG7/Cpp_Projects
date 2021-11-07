@@ -9,11 +9,14 @@ int main(){
 
     cout << "Write the size of the triangle:\n";
     cin >> size;
+    cout << "-----\n";
 
-    for(a = 1; a < size; a++){
-        for(b = 1; b < size; b++){
-            if(a )
-            cout << "8";
+    for(a = 1; a <= size; a++){
+        for(b = 1; b <= size; b++){
+            if(b <= a)
+                cout << "8";
+            else
+                cout << " ";
         }
         cout << endl;
     }
