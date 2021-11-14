@@ -19,6 +19,13 @@ int main(){
                 last = b;
             cout << size - last + 1 << " ";
         }
+        for (b = size - 1; b >= 1; b--){
+            if (a < b)
+                last = a;
+            else
+                last = b;
+        cout << size - last + 1 << " ";
+    }
         cout << endl;
     }
     cout << endl;
