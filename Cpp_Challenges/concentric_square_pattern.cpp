@@ -24,9 +24,27 @@ int main(){
                 last = a;
             else
                 last = b;
-        cout << size - last + 1 << " ";
+            cout << size - last + 1 << " ";
+        }
+        cout << endl;
     }
+    for (a = size - 1;  a >= 1; a--){
+        for (b = 1; b <= size; b++){
+            if (a < b)
+                last = a;
+            else
+                last = b;
+            cout << size - last + 1 << " ";
+        }
+        for (b = size - 1; b >= 1; b--){
+            if (a < b)
+                last = a;
+            else
+                last = b;
+            cout << size - last + 1 << " ";
+        }
         cout << endl;
     }
     cout << endl;
+    return 0;
 }
